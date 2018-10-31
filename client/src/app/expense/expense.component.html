@@ -1,3 +1,32 @@
-<p>
-  expense works!
-</p>
+<div class="container-fluid">
+  <div class="row justify-content-center" id="expense-title">
+    <div class="col-12">
+      <h3>Escribe aquí todos tus gastos.</h3>
+    </div>
+  </div>
+  <div class="row justify-content-center" id="expense-form">
+    <div class="col-12">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Gasto</label>
+          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="$">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Categoría</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comentario</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Detalla aquí porqué gastaste en eso."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>

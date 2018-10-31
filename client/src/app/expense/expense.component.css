@@ -1,0 +1,15 @@
+.container-fluid{
+    font-size: 20px;
+    color: white;
+    background-color: #6D8876;
+    width: 50%;
+}
+
+#expense-title{
+    text-align: center;
+    padding: 5%;
+}
+
+#expense-form{
+    padding: 5% 5%;
+}
